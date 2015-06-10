@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/common.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<title>Todolist </title>
+</head>
+<body>
+	<section id="wrapper">
+		<h1>my<br>todo list</h1>
+		<div class="my-list">
+			<div class="ftp mt">
+				<p class="mention"></p>
+				<form action="" id="form-todolist">
+				<p>	
+					<label for="" name="task">Ajouter une tâche</label>
+					<input type="text" id="task">
+					<p class="error">Il n'y a pas de tâches</p>
+				</p>
+				<p>
+					<label for="address">Son adresse</label>
+					<input type="text" placeholder="numéro, ville, code postale ...">
+				</p>
+				<p>
+					<label for="category">Sa catégorie</label>
+					<select name="" id="">
+						<option disabled selected> -- choisir une catégorie -- </option>
+						<option value="">Courses</option>
+						<option value="">Shopping</option>
+						<option value="">Rendez-vous</option>
+					</select>
+				</p>
+				<button>ajouter</button>
+				</form>
+			</div>
+			<div>
+				<div>
+					<ul id="contener-items"></ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.min.js"></script>
+</body>
+</html>
